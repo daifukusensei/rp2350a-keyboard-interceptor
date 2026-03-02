@@ -26,8 +26,6 @@ Physical Keyboard  →  [USB-A]  RP2350-USB-A  [USB-C]  →  Host PC
 | USB keyboard | Any standard wired USB HID keyboard |
 | USB-C cable | To connect the board to the host PC |
 
-> The RP2350-USB-A USB-A host port is implemented via PIO on **GP12 (D+)** and **GP13 (D−)**. `usb_host.Port()` takes arguments in (D+, D−) order, so the correct call is `usb_host.Port(board.GP12, board.GP13)`.
-
 ---
 
 ## Setup
@@ -63,6 +61,7 @@ import board
 
 usb_host.Port(board.GP12, board.GP13)
 ```
+> The RP2350-USB-A USB-A host port is implemented via PIO on **GP12 (D+)** and **GP13 (D−)**. `usb_host.Port()` takes arguments in (D+, D−) order, so the correct call is `usb_host.Port(board.GP12, board.GP13)`.
 
 ### 4. Deploy the Script
 

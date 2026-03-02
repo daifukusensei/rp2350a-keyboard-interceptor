@@ -1,6 +1,6 @@
 # Waveshare RP2350-USB-A Keyboard Interceptor
 
-A USB keyboard pass-through device built on the Waveshare RP2350-USB-A and CircuitPython. It sits between a physical keyboard and a host PC, intercepts keystrokes, executes custom actions, and transparently forwards all keys to the PC. I use it for key re-mapping on an mini keyboards without dedicated home and end keys.
+A USB keyboard pass-through device built on the Waveshare RP2350-USB-A and CircuitPython. It sits between a physical keyboard and a host PC, intercepts keystrokes, executes custom actions, and transparently forwards all keys to the PC. I use it for key re-mapping on mini keyboards without dedicated home and end keys.
 
 ```
 Physical Keyboard  →  [USB-A]  RP2350-USB-A  [USB-C]  →  Host PC
